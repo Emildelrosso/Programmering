@@ -12,4 +12,4 @@ rl.question('Write how many Abracadabra you want -> ',(answer)=>{
 rl.close();
         }
     }
-});
+}); 
