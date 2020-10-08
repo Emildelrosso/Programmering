@@ -19,4 +19,4 @@ rl.question("Write a number: ", (answer) => {
     else {
         console.log("The numbers are the same")
     }
-})
+});
