@@ -14,8 +14,8 @@ function code(){
     let side3 = Number(lines[2])
     let side4 = Number(lines[3])
 
-    let dice1 = side1 + side2
-    let dice2 = side3 + side4
+    let dice1 = (side1 + side2) / 2
+    let dice2 = (side3 + side4) / 2
     
     if (dice1 > dice2) {
         console.log("Emma Won!");
