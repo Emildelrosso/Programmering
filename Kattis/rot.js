@@ -28,7 +28,7 @@ rl.question("Enter text and a number here: ", (answer) => {
 
       result += newLetter
   }
-  let rResult = result.split('').reverse().join('')
+  let rResult = result.split('').join('')
   console.log(rResult)
 
   rl.close()
