@@ -6,6 +6,7 @@ const rl = readline.createInterface({
   });
 
   const num = Math.floor((Math.random() * 10) + 1)
+  console.log("Guess a number between 1 and 10, Good Luck!")
 
   let tries = 5 
 
