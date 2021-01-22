@@ -6,8 +6,8 @@ const rl = readline.createInterface({
   });
 
 rl.question('Write how many Abracadabra you want -> ',(answer)=>{
-    for(let i=1;i<=answer;i++){
-        if(i % 1==0){
+    for(let i = 1; i <= answer; i++){
+        if(i % 1 == 0){
             console.log(i + " Abracadabra")
 rl.close();
         }
